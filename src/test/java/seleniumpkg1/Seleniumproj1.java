@@ -18,8 +18,8 @@ public class Seleniumproj1 {
 		WebElement username=driver.findElement(By.id("email"));
 		WebElement password=driver.findElement(By.id("pass"));
 		WebElement login=driver.findElement(By.name("login"));
-		username.sendKeys("biplabroy446@gmail.com");
-		password.sendKeys("bilu@2011");
+		username.sendKeys("abc@gmail.com(your mail id)");
+		password.sendKeys("your password");
 		login.click();
 		String actualUrl="https://www.facebook.com/";
 		String expectedUrl= driver.getCurrentUrl();
